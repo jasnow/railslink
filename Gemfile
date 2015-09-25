@@ -22,7 +22,6 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 
 group :development do
-  gem 'dotenv-rails'
   gem 'spring'
   gem 'pry'
   gem 'pry-rails'
@@ -33,8 +32,11 @@ group :development do
   gem 'binding_of_caller'
 end
 
-group :test do
+group :development, :test do
   gem 'dotenv-rails'
+end
+
+group :test do
   gem 'webmock'
   gem 'vcr'
 end
