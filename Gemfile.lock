@@ -87,6 +87,7 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     google-analytics-turbolinks (0.0.4)
+    hashdiff (0.2.2)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     i18n (0.7.0)
@@ -208,9 +209,10 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     vcr (2.9.3)
-    webmock (1.21.0)
+    webmock (1.22.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
