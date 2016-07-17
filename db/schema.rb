@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -22,9 +21,8 @@ ActiveRecord::Schema.define(version: 20150808121006) do
     t.jsonb    "response",    default: {}, null: false
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
+    t.index ["created_at"], name: "index_slack_api_responses_on_created_at", using: :btree
+    t.index ["updated_at"], name: "index_slack_api_responses_on_updated_at", using: :btree
   end
-
-  add_index "slack_api_responses", ["created_at"], name: "index_slack_api_responses_on_created_at", using: :btree
-  add_index "slack_api_responses", ["updated_at"], name: "index_slack_api_responses_on_updated_at", using: :btree
 
 end

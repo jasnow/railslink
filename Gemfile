@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.0.0'
 gem 'rails-controller-testing'
 
-ruby '2.3.1'
+ruby '2.4.0'
 
 gem 'puma'
 gem 'pg'
