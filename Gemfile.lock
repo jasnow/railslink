@@ -86,7 +86,7 @@ GEM
       railties (>= 3.2, < 5.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    google-analytics-turbolinks (0.0.4)
+    google-analytics-turbolinks (0.0.5)
     hashdiff (0.3.0)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
