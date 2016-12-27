@@ -251,7 +251,6 @@ DEPENDENCIES
   rails-controller-testing
   rails_12factor
   rest-client
-  sass
   sass-rails
   slim-rails
   spring
