@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.0.beta1'
-gem 'rails-controller-testing'
+gem 'rails', '5.1.0.rc1'
 
 ruby '2.4.0'
 
@@ -40,6 +39,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'rails-controller-testing'
   gem 'webmock'
   gem 'vcr'
 end
