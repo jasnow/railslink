@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.4'
 
 gem 'rails', '5.1.3.rc1'
 
@@ -42,4 +43,8 @@ group :test do
   gem 'rails-controller-testing'
   gem 'webmock'
   gem 'vcr'
+end
+
+group :development, :test do
+  gem 'dotenv-rails'
 end
