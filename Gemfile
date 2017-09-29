@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.4'
 
-gem 'rails', '5.1.3'
+gem 'rails', '5.1.4'
 
-ruby '2.4.1'
+ruby '2.4.2'
 
 gem 'puma'
 gem 'pg'
@@ -43,8 +42,4 @@ group :test do
   gem 'rails-controller-testing'
   gem 'webmock'
   gem 'vcr'
-end
-
-group :development, :test do
-  gem 'dotenv-rails'
 end
