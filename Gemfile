@@ -4,7 +4,6 @@ gem 'rails', '5.1.4'
 
 ruby '2.4.2'
 
-gem 'puma'
 gem 'pg'
 gem 'rails_12factor'
 gem 'slim-rails'
