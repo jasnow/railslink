@@ -87,7 +87,7 @@ GEM
     ffi (1.9.18)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
-    globalid (0.4.0)
+    globalid (0.4.1)
       activesupport (>= 4.2.0)
     google-analytics-turbolinks (0.0.5)
     hashdiff (0.3.7)
