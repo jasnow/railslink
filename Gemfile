@@ -4,7 +4,7 @@ gem 'rails', '5.2.0.beta2'
 
 ruby '2.5.0'
 
-gem 'pg'
+gem 'pg', '0.21.0' # 1/12/2018: LOCKED DOWN
 gem 'rails_12factor'
 gem 'slim-rails'
 gem 'configatron'
