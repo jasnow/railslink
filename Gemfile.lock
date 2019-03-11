@@ -78,7 +78,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     configatron (4.5.1)
     coveralls (0.7.1)
       multi_json (~> 1.3)
