@@ -5,7 +5,6 @@ gem 'rails', '6.0.0.beta3'
 ruby '2.6.2'
 
 gem 'pg'
-gem 'rails_12factor'
 gem 'slim-rails'
 gem 'configatron'
 gem 'rest-client'
@@ -41,4 +40,8 @@ group :test do
   gem 'rails-controller-testing'
   gem 'webmock'
   gem 'vcr'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
