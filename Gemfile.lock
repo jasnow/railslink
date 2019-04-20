@@ -255,7 +255,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.6)
     vcr (4.0.0)
     webmock (3.5.1)
       addressable (>= 2.3.6)
