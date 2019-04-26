@@ -16,7 +16,7 @@ class SlackApiResponse < ActiveRecord::Base
   # @return [SlackApiResponse]
   def self.fetch(method_name, payload)
     json = RestClient.post "https://slack.com/api/#{method_name}",
-      payload, content_type: :json
+      payload, content_type: 'application/x-www-form-urlencoded'
     hash = JSON.parse(json)
     SlackApiResponse.create(
       method_name: method_name,
