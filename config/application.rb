@@ -23,5 +23,7 @@ module Railslink
     # Global values
     configatron.app_name = 'Ruby on Rails Link'
     configatron.ga.tracking_id = 'UA-64301219-1'
+
+    config.action_dispatch.return_only_media_type_on_content_type = false
   end
 end
